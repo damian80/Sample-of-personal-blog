@@ -1,3 +1,28 @@
-html {
-    background-color: steelblue;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.damian {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 10px solid black;
+}
+
+div.one {
+    border: 20px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+    margin-left: 220px;
+}
+
+div.two {
+    border: 10px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-left: 500px;
 }

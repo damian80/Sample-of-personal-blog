@@ -84,6 +84,8 @@ a {
   border-radius: 8px;
   font-size: 20px;
   padding: 10px 20px;
+  margin-left: 250px;
+  margin-bottom: 30px;
 }
 .btn:hover {
   background-color: #30e3cb;
@@ -98,12 +100,20 @@ a {
 .intro {
   margin: 100px auto;
 }
-.code-img .chili-img {
+.code-img .chili-img .like-img {
   width: 45%;
 }
-.contact-me {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
+.me {
+  margin-left: -30px;
+  margin-bottom: 10px;
+}
+
+.like-img {
+  margin-bottom: 20px;
+}
+.footer-link:hover {
+  color: white;
+}
+#copyright {
+  padding: 50px;
 }

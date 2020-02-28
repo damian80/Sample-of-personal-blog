@@ -50,6 +50,8 @@ div.middle-container {
   line-height: 2;
 }
 div.bottom-container {
+  background-color: #11999e;
+  padding: 50px 0 50px;
 }
 
 .top-cloud {
@@ -66,9 +68,13 @@ div.bottom-container {
 
 .front {
   font-weight: normal;
+  text-decoration: none;
 }
-.footer-link {
-  color: #11999e;
+a {
+  color: #40514e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin: 10px;
 }
 .btn {
   background-color: #11cdd4;

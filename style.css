@@ -20,10 +20,20 @@ h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
+  padding-bottom: 10px;
 }
 h3 {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 div.top-container {
@@ -33,6 +43,11 @@ div.top-container {
 }
 
 div.middle-container {
+  width: 50%;
+  margin: 100px auto;
+
+  text-align: left;
+  line-height: 2;
 }
 div.bottom-container {
 }
@@ -56,5 +71,33 @@ div.bottom-container {
   color: #11999e;
 }
 .btn {
-  color: #11999e;
+  background-color: #11cdd4;
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.btn:hover {
+  background-color: #30e3cb;
+  text-decoration: none;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.intro {
+  margin: 100px auto;
+}
+.code-img .chili-img {
+  width: 45%;
+}
+.contact-me {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
 }

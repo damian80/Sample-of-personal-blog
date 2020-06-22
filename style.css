@@ -1,57 +1,26 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 body {
-  color: #40514e;
   text-align: center;
-  font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #66bfbf;
-  margin: 50px;
-  font-family: "Sacramento", cursive;
-  font-size: 5rem;
-  line-height: 0.5;
+  margin-top: 30px;
 }
-h2 {
-  color: #66bfbf;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  padding-bottom: 10px;
+
+div.top {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 60px;
 }
-h3 {
-  color: #11999e;
-  font-family: "Montserrat", sans-serif;
+.park {
+  margin-top: 130px;
 }
 p {
-  line-height: 2;
-}
-hr {
-  border: dotted #eaf6f6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
-
-div.top-container {
-  background-color: #e4f9f5;
-  padding-top: 100px;
-  position: relative;
-}
-
-div.middle-container {
-  width: 50%;
-  margin: 100px auto;
-
-  text-align: left;
-  line-height: 2;
-}
-div.bottom-container {
-  background-color: #11999e;
-  padding: 50px 0 50px;
+  margin-top: 15px;
 }
 
 .top-cloud {
@@ -59,61 +28,8 @@ div.bottom-container {
   right: 300px;
   top: 50px;
 }
-
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  top: 360px;
-}
-
-.front {
-  font-weight: normal;
-  text-decoration: none;
-}
-a {
-  color: #40514e;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  margin: 10px;
-}
-.btn {
-  background-color: #11cdd4;
-  color: white;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  border-radius: 8px;
-  font-size: 20px;
-  padding: 10px 20px;
-  margin-left: 250px;
-  margin-bottom: 30px;
-}
-.btn:hover {
-  background-color: #30e3cb;
-  text-decoration: none;
-}
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-.intro {
-  margin: 100px auto;
-}
-.code-img .chili-img .like-img {
-  width: 45%;
-}
-.me {
-  margin-left: -30px;
-  margin-bottom: 10px;
-}
-
-.like-img {
-  margin-bottom: 20px;
-}
-.footer-link:hover {
-  color: white;
-}
-#copyright {
-  padding: 50px;
+  top: 200px;
+  left: 350px;
 }

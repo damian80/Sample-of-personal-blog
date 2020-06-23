@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Merriweather", serif;
 }
 
 body {
@@ -9,6 +10,14 @@ body {
 
 h1 {
   margin-top: 30px;
+
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 div.top {

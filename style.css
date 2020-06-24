@@ -9,15 +9,21 @@ body {
 }
 
 h1 {
+  font-size: 5.625rem;
   margin-top: 30px;
-
+  color: #66bfbf;
   font-family: "Sacramento", cursive;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
+  line-height: 2;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
 
 div.top {
@@ -39,6 +45,9 @@ p {
 }
 .bottom-cloud {
   position: absolute;
-  top: 200px;
+  top: 350px;
   left: 350px;
+}
+a {
+  color: #11999e;
 }

@@ -51,3 +51,17 @@ p {
 a {
   color: #11999e;
 }
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.code {
+  float: left;
+  padding: 30px;
+}
+.edit {
+  float: right;
+  padding: 30px;
+}

@@ -6,6 +6,7 @@
 
 body {
   text-align: center;
+  color: #40514e;
 }
 
 h1 {
@@ -25,7 +26,9 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #11999e;
 }
-
+hr {
+  margin-top: 10px;
+}
 div.top {
   background-color: #e4f9f5;
   position: relative;
@@ -37,7 +40,9 @@ div.top {
 p {
   margin-top: 15px;
 }
-
+.middle-container {
+  padding: 100px;
+}
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -64,4 +69,31 @@ a {
 .edit {
   float: right;
   padding: 30px;
+}
+
+a.btn {
+  border-radius: 5px;
+  text-decoration: none;
+  /* border: 5px solid #11999e; */
+  background-color: #11999e;
+  color: white;
+  padding: 15px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  margin-top: 50px;
+  padding: 45px;
+}
+.footer-link {
+  /* padding-top: 45px; */
+  padding: 15px;
+  color: #11999e;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+.data {
+  padding: 30px;
+  color: white;
 }
